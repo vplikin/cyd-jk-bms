@@ -243,14 +243,6 @@ GitHub Actions ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) runs on 
 - unit tests on `native`;
 - firmware builds for the English and Russian UI with default settings, with a size report in the job summary.
 
-Each build uploads `cyd-jk-bms-<lang>.bin` (app image at `0x10000`) and
-`cyd-jk-bms-<lang>-full.bin` (merged image for a blank board at `0x0`) as
-artifacts. Pushing a `v*` tag attaches both images to a GitHub release.
-
-> [!NOTE]
-> CI images use the defaults from `config.h`: no Wi‑Fi credentials, auto-scan
-> for one JK BMS, UTC. For your own setup, build locally with `include/secrets.h`.
-
 ## Credits
 
 - Cyrillic fonts in `src/fonts/` are generated with [lv_font_conv](https://github.com/lvgl/lv_font_conv) from Montserrat (SIL Open Font License 1.1).
