@@ -1,0 +1,17 @@
+# PlatformIO / IDE
+.pio/
+.vscode/
+
+# Local secrets (copy include/secrets.example.h)
+include/secrets.h
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Obsolete local assets
+tools/saver_frames_raw.h
+tools/saver_old/
+
+.DS_Store
