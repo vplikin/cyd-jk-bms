@@ -4,6 +4,7 @@
 
 # cyd-jk-bms
 
+[![CI](https://github.com/vplikin/cyd-jk-bms/actions/workflows/ci.yml/badge.svg)](https://github.com/vplikin/cyd-jk-bms/actions/workflows/ci.yml)
 [![PlatformIO](https://img.shields.io/badge/PlatformIO-espressif32-f5822a?logo=platformio&logoColor=white)](https://platformio.org/)
 [![Board](https://img.shields.io/badge/board-ESP32--2432S028R-ffd700)](#hardware)
 [![LVGL](https://img.shields.io/badge/LVGL-8.4-343839)](https://lvgl.io/)
@@ -51,7 +52,7 @@ You need [PlatformIO](https://platformio.org/install). Dependencies are pinned i
 1. Clone the repository and create your local config:
 
    ```bash
-   git clone <repository-url> cyd-jk-bms
+   git clone https://github.com/vplikin/cyd-jk-bms.git
    cd cyd-jk-bms
    cp include/secrets.example.h include/secrets.h
    ```
